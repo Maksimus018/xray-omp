@@ -23,7 +23,7 @@ CCameraBase::CCameraBase(CObject* p, u32 flags)
 	bClampPitch		= false;
 	bClampRoll		= false;
 	SetParent		(p);
-	f_fov			= 90;
+	f_fov			= 75;
 	f_aspect		= 1.f;
 	tag				= 0;
 }
@@ -76,7 +76,7 @@ SCamEffectorInfo::SCamEffectorInfo()
 	d.set				(0,0,1);
 	n.set				(0,1,0);
 
-	fFov				= 90.0f;
+	fFov				= 75.0f;
 	fFar				= 100.0f;
 	fAspect				= 1.f;
 	dont_apply			= false;
